@@ -19,5 +19,7 @@ def build_list(source, dest):
     new_file.write(json.dumps(quote_strings[6:]))
     new_file.close()
 
+    print("%d quotes extracted" % len(quote_strings[6:]))
+
 
 build_list(SOURCE_FILE, DEST_FILE)

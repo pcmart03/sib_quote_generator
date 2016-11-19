@@ -1,0 +1,17 @@
+{
+  "name": "sib_quote_generator",
+  "version": "1.0.0",
+  "description": "This project is a prototype of a widget that the Sibling Support network asked me to [build for their website](https://www.siblingsupport.org/). It randomly selects a quote from a list and displays it on the home page. The user can click a button and generate another quote.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.1"
+  }
+}
