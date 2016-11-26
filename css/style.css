@@ -3,6 +3,10 @@ body {
     font-size: 16px;
 }
 
+.offset-p {
+    margin-left: 20px;
+}
+
 .quotebox {
     position: relative;
     margin: 20px auto;
@@ -43,4 +47,22 @@ body {
     background-color: #339900;
     color: #FFF;
     font-size: 1.1em;
+    cursor: pointer;
+}
+
+@media all and (max-width: 600px) {
+    .quotebox {
+        width: 90%;
+        margin-right: 10px;
+        padding-right: 10px;
+    }
+
+    .quote-text-container {
+        margin-left: 20px;
+        height: 320px;
+    }
+
+    .quote-button {
+        margin-right: 0px;
+    }
 }
