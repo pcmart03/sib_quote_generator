@@ -3,6 +3,10 @@ body {
     font-size: 16px;
 }
 
+.offset-p {
+    margin-left: 20px;
+}
+
 .quotebox {
     position: relative;
     margin: 20px auto;
@@ -55,7 +59,7 @@ body {
 
     .quote-text-container {
         margin-left: 20px;
-        height: 300px;
+        height: 320px;
     }
 
     .quote-button {
